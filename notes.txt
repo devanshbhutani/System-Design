@@ -1,0 +1,18 @@
+what is lld? 
+LLD stands for "Low-Level Design." It is a phase in the software development process where the detailed design of the system is created. In LLD, developers focus on the internal structure of the system, including the design of classes, methods, data structures, and algorithms. It provides a blueprint for how the system will be implemented and helps ensure that all components work together effectively. LLD is typically created after the High-Level Design (HLD) phase, which outlines the overall architecture and major components of the system.
+LLD mainly focuses on the following aspects:
+Scalability: Ensuring that the system can handle increased load and can be easily extended in the future.
+Performance: Optimizing the system for speed and efficiency.
+Maintainability: Designing the system in a way that makes it easy to understand, modify, and maintain over time.
+Security: Implementing measures to protect the system from unauthorized access and vulnerabilities.
+Reusability: Designing components that can be reused in different parts of the system or in future projects. (Tightly coupled nahi hona chahiye)
+LLD is an essential step in the software development lifecycle, as it provides a clear roadmap for developers to follow during implementation.
+
+what is hld?
+HLD stands for "High-Level Design." It is a phase in the software development process where the overall architecture and major components of the system are designed. In HLD, developers focus on the big picture, defining the system's structure, interfaces, and interactions between different modules. It provides a high-level view of how the system will be built and helps in making important decisions about the system's design and functionality. HLD is typically created before the Low-Level Design (LLD) phase, which involves more detailed planning and implementation details.
+
+HLD : system achitecture
+LLD : code structure
+DSA : algo 
+
+dsa is a brain of an application. LLD is the skelaton of an application. HLD is the body of an application.

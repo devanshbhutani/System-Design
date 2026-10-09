@@ -1,0 +1,5 @@
+// history of programming 
+// 1. Machine Language (1940s-1950s): The earliest programming was done in machine language, which consists of binary code (0s and 1s) that the computer's hardware can directly execute. This was extremely difficult and error-prone for humans to write and understand.
+// 2. Assembly Language (1950s-1960s): Assembly language was developed as a more human-readable way to write programs. It uses mnemonics and symbols to represent machine instructions, making it easier for programmers to write and debug code. However, it still required a deep understanding of the computer's architecture.
+
+// 3. High-Level Languages (1950s-present): High-level programming languages were created to further simplify programming by allowing developers to write code using more natural language constructs. Examples include Fortran, COBOL, and later languages like C, Java, and Python. These languages are translated into machine code by compilers or interpreters.
