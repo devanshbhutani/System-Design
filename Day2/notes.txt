@@ -1,0 +1,97 @@
+history of programming 
+1. Machine Language (1940s-1950s): The earliest programming was done in machine language, which consists of binary code (0s and 1s) that the computer's hardware can directly execute. This was extremely difficult and error-prone for humans to write and understand.
+
+2. Assembly Language (1950s-1960s): Assembly language was developed as a more human-readable way to write programs. It uses mnemonics and symbols to represent machine instructions, making it easier for programmers to write and debug code. However, it still required a deep understanding of the computer's architecture.
+
+3. High-Level Languages (1950s-present): High-level programming languages were created to further simplify programming by allowing developers to write code using more natural language constructs. Examples include Fortran, COBOL, and later languages like C, Java, and Python. These languages are translated into machine code by compilers or interpreters.
+
+4. Object-Oriented Programming (1980s-present): Object-oriented programming (OOP) introduced the concept of objects, which encapsulate data and behavior. This paradigm promotes code reusability and modularity. Popular OOP languages include C++, Java, and Python.
+
+OOP has become a dominant programming paradigm, influencing the design of many modern programming languages and frameworks. It allows developers to model real-world entities and their interactions, making it easier to manage complex software systems.
+earlier programing languages lack real world modeling capabilities, which led to the development of OOP. By organizing code into objects, developers can create more maintainable and scalable applications.
+
+also data security is a major concern in programming, especially with the rise of cyber threats and data breaches. Developers must implement security best practices, such as input validation, encryption, and secure authentication methods, to protect sensitive information and ensure the integrity of their applications.
+and last scalable and reusable code is important in programming, as it allows developers to build applications that can grow and adapt to changing requirements. By following principles like modularity, abstraction, and separation of concerns, developers can create code that is easier to maintain, test, and extend over time.
+
+Objects are those which interact with each other 
+characteristics and behaviors
+
+example : 
+car
+characteristics: engine, brand, model, color, speed, fuel type
+behaviors: start, stop, accelerate, brake, honk
+
+now let's take example that owner owns a car and the owner is also an object. The owner can have characteristics like name, age, and address, and behaviors like drive, park, and refuel. The car and the owner can interact with each other through these behaviors, such as the owner driving the car or refueling it.
+
+so doing all this with the help of procedural programming would be much more complex and less intuitive. Procedural programming focuses on writing sequences of instructions or procedures to manipulate data, which can lead to code that is harder to maintain and understand as the program grows in size and complexity. In contrast, OOP allows for a more natural representation of real-world entities and their interactions, making it easier to manage and scale applications over time.
+
+we simple make 
+class Car {
+    constructor(brand, model, color, speed, fuelType) {
+        this.brand = brand;
+        this.model = model;
+        this.color = color;
+        this.speed = speed;
+        this.fuelType = fuelType;
+    }
+
+    start() {
+        console.log(`${this.brand} ${this.model} is starting.`);
+    }
+
+    stop() {
+        console.log(`${this.brand} ${this.model} is stopping.`);
+    }
+
+    accelerate() {
+        console.log(`${this.brand} ${this.model} is accelerating.`);
+    }
+
+    brake() {
+        console.log(`${this.brand} ${this.model} is braking.`);
+    }
+
+    honk() {
+        console.log(`${this.brand} ${this.model} is honking.`);
+    }
+}        
+
+similarly we can create a class for Owner and define its characteristics and behaviors. 
+class Owner {
+    constructor(name, age, address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    drive(car) {
+        console.log(`${this.name} is driving the ${car.brand} ${car.model}.`);
+    }
+
+    park(car) {
+        console.log(`${this.name} is parking the ${car.brand} ${car.model}.`);
+    }
+
+    refuel(car) {
+        console.log(`${this.name} is refueling the ${car.brand} ${car.model}.`);
+    }
+}   
+
+This way, we can model the relationship between the owner and the car in a more intuitive and organized manner using OOP principles.
+
+Idealogy of OOP 
+just know one thing that object interacts with each other and they have characteristics and behaviors.
+
+Pillars of OOP
+Abstraction: Abstraction is the process of simplifying complex systems by breaking them down into smaller, more manageable parts. In OOP, abstraction allows developers to focus on the essential features of an object while ignoring unnecessary details. This helps to reduce complexity and improve code maintainability.
+
+Encapsulation: Encapsulation is the practice of bundling data and methods that operate on that data within a single unit, known as an object. This helps to protect the object's internal state from external interference and ensures that the object's behavior is consistent and predictable. Encapsulation promotes modularity and code reusability.
+like a capsule 
+data aur behavior ko ek sath rakha jata hai, ek object ke andar, aur bahar se direct access nahi hota, sirf methods ke through access hota hai.
+most important thing is that encapsulation helps in data security 
+class car {
+variable -> characteristics
+methods -> behaviors
+}
+
+and we use access modifiers like private, public, and protected to control the visibility of the object's data and methods. This allows developers to enforce rules and restrictions on how the object can be used, ensuring that it behaves as intended.
